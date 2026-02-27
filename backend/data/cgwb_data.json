@@ -1,0 +1,505 @@
+{
+  "states": {
+    "Andhra Pradesh": {
+      "avg_rainfall_mm": 940,
+      "principal_aquifer": "Granite/Gneiss, Limestone, Sandstone",
+      "avg_groundwater_depth_m": 8.5,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 125,
+      "soil_type": "Red soil, Black cotton soil",
+      "districts": {
+        "Anantapur": { "rainfall_mm": 553, "gw_depth_m": 12.3, "aquifer": "Granite/Gneiss", "recharge_rate": 95 },
+        "Chittoor": { "rainfall_mm": 870, "gw_depth_m": 7.8, "aquifer": "Granite/Gneiss", "recharge_rate": 120 },
+        "Guntur": { "rainfall_mm": 830, "gw_depth_m": 6.5, "aquifer": "Limestone/Sandstone", "recharge_rate": 135 },
+        "Krishna": { "rainfall_mm": 960, "gw_depth_m": 5.2, "aquifer": "Alluvium", "recharge_rate": 150 },
+        "Kurnool": { "rainfall_mm": 680, "gw_depth_m": 10.5, "aquifer": "Limestone/Quartzite", "recharge_rate": 100 },
+        "Nellore": { "rainfall_mm": 1050, "gw_depth_m": 4.8, "aquifer": "Alluvium/Granite", "recharge_rate": 160 },
+        "Visakhapatnam": { "rainfall_mm": 1120, "gw_depth_m": 5.5, "aquifer": "Khondalite/Charnockite", "recharge_rate": 155 },
+        "East Godavari": { "rainfall_mm": 1180, "gw_depth_m": 3.8, "aquifer": "Alluvium", "recharge_rate": 175 },
+        "West Godavari": { "rainfall_mm": 1100, "gw_depth_m": 4.2, "aquifer": "Alluvium", "recharge_rate": 170 },
+        "Prakasam": { "rainfall_mm": 750, "gw_depth_m": 8.0, "aquifer": "Granite/Gneiss", "recharge_rate": 110 }
+      }
+    },
+    "Bihar": {
+      "avg_rainfall_mm": 1210,
+      "principal_aquifer": "Alluvium (Newer and Older)",
+      "avg_groundwater_depth_m": 5.2,
+      "runoff_coefficient": 0.50,
+      "recharge_rate_mm_per_year": 200,
+      "soil_type": "Alluvial soil",
+      "districts": {
+        "Patna": { "rainfall_mm": 1100, "gw_depth_m": 4.8, "aquifer": "Newer Alluvium", "recharge_rate": 210 },
+        "Gaya": { "rainfall_mm": 1050, "gw_depth_m": 7.2, "aquifer": "Older Alluvium/Granite", "recharge_rate": 165 },
+        "Muzaffarpur": { "rainfall_mm": 1250, "gw_depth_m": 3.5, "aquifer": "Newer Alluvium", "recharge_rate": 230 },
+        "Bhagalpur": { "rainfall_mm": 1180, "gw_depth_m": 5.0, "aquifer": "Newer Alluvium", "recharge_rate": 200 },
+        "Darbhanga": { "rainfall_mm": 1300, "gw_depth_m": 3.0, "aquifer": "Newer Alluvium", "recharge_rate": 240 },
+        "Purnia": { "rainfall_mm": 1450, "gw_depth_m": 4.2, "aquifer": "Newer Alluvium", "recharge_rate": 250 }
+      }
+    },
+    "Chhattisgarh": {
+      "avg_rainfall_mm": 1350,
+      "principal_aquifer": "Sandstone, Shale, Limestone",
+      "avg_groundwater_depth_m": 6.8,
+      "runoff_coefficient": 0.42,
+      "recharge_rate_mm_per_year": 160,
+      "soil_type": "Red and yellow soil, Laterite",
+      "districts": {
+        "Raipur": { "rainfall_mm": 1300, "gw_depth_m": 6.5, "aquifer": "Sandstone/Shale", "recharge_rate": 155 },
+        "Bilaspur": { "rainfall_mm": 1350, "gw_depth_m": 5.8, "aquifer": "Limestone/Sandstone", "recharge_rate": 170 },
+        "Durg": { "rainfall_mm": 1250, "gw_depth_m": 7.2, "aquifer": "Granite/Gneiss", "recharge_rate": 145 },
+        "Bastar": { "rainfall_mm": 1500, "gw_depth_m": 5.0, "aquifer": "Sandstone/Shale", "recharge_rate": 185 }
+      }
+    },
+    "Delhi": {
+      "avg_rainfall_mm": 797,
+      "principal_aquifer": "Alluvium (Newer), Quartzite",
+      "avg_groundwater_depth_m": 15.5,
+      "runoff_coefficient": 0.65,
+      "recharge_rate_mm_per_year": 90,
+      "soil_type": "Alluvial soil, Sandy soil",
+      "districts": {
+        "New Delhi": { "rainfall_mm": 797, "gw_depth_m": 18.0, "aquifer": "Newer Alluvium/Quartzite", "recharge_rate": 80 },
+        "North Delhi": { "rainfall_mm": 800, "gw_depth_m": 12.5, "aquifer": "Newer Alluvium", "recharge_rate": 95 },
+        "South Delhi": { "rainfall_mm": 790, "gw_depth_m": 20.0, "aquifer": "Quartzite/Alluvium", "recharge_rate": 75 },
+        "East Delhi": { "rainfall_mm": 810, "gw_depth_m": 8.5, "aquifer": "Newer Alluvium", "recharge_rate": 110 },
+        "West Delhi": { "rainfall_mm": 795, "gw_depth_m": 16.0, "aquifer": "Newer Alluvium", "recharge_rate": 85 }
+      }
+    },
+    "Goa": {
+      "avg_rainfall_mm": 3005,
+      "principal_aquifer": "Laterite, Basalt",
+      "avg_groundwater_depth_m": 4.5,
+      "runoff_coefficient": 0.55,
+      "recharge_rate_mm_per_year": 280,
+      "soil_type": "Laterite soil",
+      "districts": {
+        "North Goa": { "rainfall_mm": 2900, "gw_depth_m": 4.0, "aquifer": "Laterite", "recharge_rate": 275 },
+        "South Goa": { "rainfall_mm": 3100, "gw_depth_m": 5.0, "aquifer": "Laterite/Basalt", "recharge_rate": 285 }
+      }
+    },
+    "Gujarat": {
+      "avg_rainfall_mm": 820,
+      "principal_aquifer": "Basalt, Alluvium, Limestone",
+      "avg_groundwater_depth_m": 12.0,
+      "runoff_coefficient": 0.40,
+      "recharge_rate_mm_per_year": 110,
+      "soil_type": "Black cotton soil, Alluvial, Sandy",
+      "districts": {
+        "Ahmedabad": { "rainfall_mm": 780, "gw_depth_m": 15.0, "aquifer": "Alluvium/Basalt", "recharge_rate": 95 },
+        "Rajkot": { "rainfall_mm": 620, "gw_depth_m": 18.0, "aquifer": "Basalt", "recharge_rate": 80 },
+        "Surat": { "rainfall_mm": 1200, "gw_depth_m": 5.5, "aquifer": "Alluvium", "recharge_rate": 165 },
+        "Vadodara": { "rainfall_mm": 920, "gw_depth_m": 10.0, "aquifer": "Basalt/Alluvium", "recharge_rate": 120 },
+        "Kutch": { "rainfall_mm": 370, "gw_depth_m": 25.0, "aquifer": "Sandstone/Limestone", "recharge_rate": 50 },
+        "Junagadh": { "rainfall_mm": 850, "gw_depth_m": 12.0, "aquifer": "Limestone/Basalt", "recharge_rate": 110 },
+        "Bhavnagar": { "rainfall_mm": 600, "gw_depth_m": 16.0, "aquifer": "Basalt/Limestone", "recharge_rate": 75 }
+      }
+    },
+    "Haryana": {
+      "avg_rainfall_mm": 560,
+      "principal_aquifer": "Alluvium (Newer and Older)",
+      "avg_groundwater_depth_m": 14.0,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 100,
+      "soil_type": "Alluvial soil, Sandy loam",
+      "districts": {
+        "Faridabad": { "rainfall_mm": 580, "gw_depth_m": 18.0, "aquifer": "Older Alluvium", "recharge_rate": 85 },
+        "Gurugram": { "rainfall_mm": 570, "gw_depth_m": 22.0, "aquifer": "Older Alluvium/Quartzite", "recharge_rate": 75 },
+        "Karnal": { "rainfall_mm": 650, "gw_depth_m": 8.0, "aquifer": "Newer Alluvium", "recharge_rate": 130 },
+        "Hisar": { "rainfall_mm": 420, "gw_depth_m": 20.0, "aquifer": "Older Alluvium", "recharge_rate": 70 },
+        "Ambala": { "rainfall_mm": 850, "gw_depth_m": 6.5, "aquifer": "Newer Alluvium", "recharge_rate": 145 },
+        "Rohtak": { "rainfall_mm": 490, "gw_depth_m": 15.0, "aquifer": "Older Alluvium", "recharge_rate": 80 }
+      }
+    },
+    "Himachal Pradesh": {
+      "avg_rainfall_mm": 1600,
+      "principal_aquifer": "Granite/Gneiss, Sandstone, Limestone",
+      "avg_groundwater_depth_m": 8.0,
+      "runoff_coefficient": 0.50,
+      "recharge_rate_mm_per_year": 175,
+      "soil_type": "Mountain soil, Brown forest soil",
+      "districts": {
+        "Shimla": { "rainfall_mm": 1550, "gw_depth_m": 10.0, "aquifer": "Granite/Gneiss", "recharge_rate": 160 },
+        "Kangra": { "rainfall_mm": 1800, "gw_depth_m": 6.0, "aquifer": "Sandstone/Shale", "recharge_rate": 195 },
+        "Mandi": { "rainfall_mm": 1500, "gw_depth_m": 8.5, "aquifer": "Granite/Quartzite", "recharge_rate": 165 },
+        "Kullu": { "rainfall_mm": 1400, "gw_depth_m": 7.0, "aquifer": "Granite/Gneiss", "recharge_rate": 170 }
+      }
+    },
+    "Jharkhand": {
+      "avg_rainfall_mm": 1300,
+      "principal_aquifer": "Granite/Gneiss, Schist, Sandstone",
+      "avg_groundwater_depth_m": 6.5,
+      "runoff_coefficient": 0.42,
+      "recharge_rate_mm_per_year": 155,
+      "soil_type": "Red soil, Laterite",
+      "districts": {
+        "Ranchi": { "rainfall_mm": 1350, "gw_depth_m": 6.0, "aquifer": "Granite/Gneiss", "recharge_rate": 160 },
+        "Jamshedpur": { "rainfall_mm": 1400, "gw_depth_m": 5.5, "aquifer": "Granite/Iron ore series", "recharge_rate": 170 },
+        "Dhanbad": { "rainfall_mm": 1250, "gw_depth_m": 7.5, "aquifer": "Sandstone/Shale", "recharge_rate": 140 },
+        "Bokaro": { "rainfall_mm": 1280, "gw_depth_m": 7.0, "aquifer": "Granite/Gneiss", "recharge_rate": 150 }
+      }
+    },
+    "Karnataka": {
+      "avg_rainfall_mm": 1248,
+      "principal_aquifer": "Granite/Gneiss, Schist, Basalt",
+      "avg_groundwater_depth_m": 9.0,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 140,
+      "soil_type": "Red soil, Black cotton soil, Laterite",
+      "districts": {
+        "Bengaluru Urban": { "rainfall_mm": 970, "gw_depth_m": 14.0, "aquifer": "Granite/Gneiss", "recharge_rate": 110 },
+        "Mysuru": { "rainfall_mm": 800, "gw_depth_m": 10.0, "aquifer": "Granite/Gneiss", "recharge_rate": 105 },
+        "Belgaum": { "rainfall_mm": 1100, "gw_depth_m": 7.5, "aquifer": "Basalt/Granite", "recharge_rate": 145 },
+        "Mangaluru": { "rainfall_mm": 3600, "gw_depth_m": 3.5, "aquifer": "Laterite/Granite", "recharge_rate": 280 },
+        "Hubli-Dharwad": { "rainfall_mm": 850, "gw_depth_m": 9.0, "aquifer": "Granite/Schist", "recharge_rate": 115 },
+        "Gulbarga": { "rainfall_mm": 750, "gw_depth_m": 12.0, "aquifer": "Basalt", "recharge_rate": 95 }
+      }
+    },
+    "Kerala": {
+      "avg_rainfall_mm": 3055,
+      "principal_aquifer": "Laterite, Crystalline (Charnockite/Gneiss)",
+      "avg_groundwater_depth_m": 4.0,
+      "runoff_coefficient": 0.55,
+      "recharge_rate_mm_per_year": 300,
+      "soil_type": "Laterite, Red loam, Alluvial",
+      "districts": {
+        "Thiruvananthapuram": { "rainfall_mm": 1800, "gw_depth_m": 5.5, "aquifer": "Laterite/Charnockite", "recharge_rate": 250 },
+        "Ernakulam": { "rainfall_mm": 3200, "gw_depth_m": 3.0, "aquifer": "Laterite/Alluvium", "recharge_rate": 320 },
+        "Kozhikode": { "rainfall_mm": 3400, "gw_depth_m": 3.5, "aquifer": "Laterite", "recharge_rate": 340 },
+        "Thrissur": { "rainfall_mm": 3000, "gw_depth_m": 4.0, "aquifer": "Laterite/Gneiss", "recharge_rate": 300 },
+        "Palakkad": { "rainfall_mm": 2200, "gw_depth_m": 6.0, "aquifer": "Crystalline/Laterite", "recharge_rate": 260 },
+        "Idukki": { "rainfall_mm": 3500, "gw_depth_m": 5.0, "aquifer": "Crystalline (Charnockite)", "recharge_rate": 310 }
+      }
+    },
+    "Madhya Pradesh": {
+      "avg_rainfall_mm": 1160,
+      "principal_aquifer": "Basalt, Sandstone, Alluvium",
+      "avg_groundwater_depth_m": 8.5,
+      "runoff_coefficient": 0.42,
+      "recharge_rate_mm_per_year": 140,
+      "soil_type": "Black cotton soil, Red soil, Alluvial",
+      "districts": {
+        "Bhopal": { "rainfall_mm": 1150, "gw_depth_m": 9.0, "aquifer": "Sandstone/Basalt", "recharge_rate": 135 },
+        "Indore": { "rainfall_mm": 950, "gw_depth_m": 10.5, "aquifer": "Basalt", "recharge_rate": 115 },
+        "Jabalpur": { "rainfall_mm": 1350, "gw_depth_m": 6.5, "aquifer": "Sandstone/Limestone", "recharge_rate": 165 },
+        "Gwalior": { "rainfall_mm": 850, "gw_depth_m": 12.0, "aquifer": "Sandstone/Shale", "recharge_rate": 105 },
+        "Ujjain": { "rainfall_mm": 900, "gw_depth_m": 11.0, "aquifer": "Basalt", "recharge_rate": 110 }
+      }
+    },
+    "Maharashtra": {
+      "avg_rainfall_mm": 1160,
+      "principal_aquifer": "Basalt (Deccan Trap), Alluvium",
+      "avg_groundwater_depth_m": 8.0,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 135,
+      "soil_type": "Black cotton soil, Laterite, Red soil",
+      "districts": {
+        "Mumbai": { "rainfall_mm": 2200, "gw_depth_m": 4.5, "aquifer": "Basalt", "recharge_rate": 200 },
+        "Pune": { "rainfall_mm": 1400, "gw_depth_m": 8.0, "aquifer": "Basalt", "recharge_rate": 155 },
+        "Nagpur": { "rainfall_mm": 1100, "gw_depth_m": 9.5, "aquifer": "Sandstone/Basalt", "recharge_rate": 130 },
+        "Nashik": { "rainfall_mm": 1050, "gw_depth_m": 10.0, "aquifer": "Basalt", "recharge_rate": 120 },
+        "Aurangabad": { "rainfall_mm": 730, "gw_depth_m": 12.5, "aquifer": "Basalt", "recharge_rate": 90 },
+        "Kolhapur": { "rainfall_mm": 1600, "gw_depth_m": 5.0, "aquifer": "Basalt/Laterite", "recharge_rate": 175 },
+        "Ratnagiri": { "rainfall_mm": 3200, "gw_depth_m": 3.5, "aquifer": "Laterite/Basalt", "recharge_rate": 280 }
+      }
+    },
+    "Odisha": {
+      "avg_rainfall_mm": 1482,
+      "principal_aquifer": "Alluvium, Granite/Gneiss, Laterite",
+      "avg_groundwater_depth_m": 4.5,
+      "runoff_coefficient": 0.48,
+      "recharge_rate_mm_per_year": 185,
+      "soil_type": "Red soil, Laterite, Alluvial",
+      "districts": {
+        "Bhubaneswar": { "rainfall_mm": 1500, "gw_depth_m": 4.0, "aquifer": "Laterite/Alluvium", "recharge_rate": 190 },
+        "Cuttack": { "rainfall_mm": 1550, "gw_depth_m": 3.5, "aquifer": "Alluvium", "recharge_rate": 200 },
+        "Sambalpur": { "rainfall_mm": 1400, "gw_depth_m": 5.5, "aquifer": "Granite/Gneiss", "recharge_rate": 170 },
+        "Berhampur": { "rainfall_mm": 1200, "gw_depth_m": 5.0, "aquifer": "Granite/Khondalite", "recharge_rate": 155 }
+      }
+    },
+    "Punjab": {
+      "avg_rainfall_mm": 650,
+      "principal_aquifer": "Alluvium (Newer and Older)",
+      "avg_groundwater_depth_m": 16.0,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 105,
+      "soil_type": "Alluvial soil",
+      "districts": {
+        "Ludhiana": { "rainfall_mm": 700, "gw_depth_m": 20.0, "aquifer": "Newer Alluvium", "recharge_rate": 100 },
+        "Amritsar": { "rainfall_mm": 650, "gw_depth_m": 15.0, "aquifer": "Newer Alluvium", "recharge_rate": 110 },
+        "Patiala": { "rainfall_mm": 720, "gw_depth_m": 18.0, "aquifer": "Newer Alluvium", "recharge_rate": 105 },
+        "Jalandhar": { "rainfall_mm": 680, "gw_depth_m": 22.0, "aquifer": "Newer Alluvium", "recharge_rate": 95 },
+        "Bathinda": { "rainfall_mm": 420, "gw_depth_m": 12.0, "aquifer": "Older Alluvium", "recharge_rate": 80 }
+      }
+    },
+    "Rajasthan": {
+      "avg_rainfall_mm": 530,
+      "principal_aquifer": "Sandstone, Limestone, Alluvium, Granite",
+      "avg_groundwater_depth_m": 20.0,
+      "runoff_coefficient": 0.35,
+      "recharge_rate_mm_per_year": 65,
+      "soil_type": "Desert soil, Sandy, Alluvial",
+      "districts": {
+        "Jaipur": { "rainfall_mm": 600, "gw_depth_m": 25.0, "aquifer": "Quartzite/Granite", "recharge_rate": 70 },
+        "Jodhpur": { "rainfall_mm": 360, "gw_depth_m": 35.0, "aquifer": "Sandstone/Limestone", "recharge_rate": 40 },
+        "Udaipur": { "rainfall_mm": 650, "gw_depth_m": 15.0, "aquifer": "Granite/Gneiss", "recharge_rate": 85 },
+        "Ajmer": { "rainfall_mm": 530, "gw_depth_m": 20.0, "aquifer": "Granite/Schist", "recharge_rate": 60 },
+        "Kota": { "rainfall_mm": 800, "gw_depth_m": 12.0, "aquifer": "Sandstone/Limestone", "recharge_rate": 100 },
+        "Bikaner": { "rainfall_mm": 280, "gw_depth_m": 40.0, "aquifer": "Sandstone/Alluvium", "recharge_rate": 30 },
+        "Jaisalmer": { "rainfall_mm": 180, "gw_depth_m": 50.0, "aquifer": "Sandstone/Limestone", "recharge_rate": 20 }
+      }
+    },
+    "Tamil Nadu": {
+      "avg_rainfall_mm": 945,
+      "principal_aquifer": "Granite/Gneiss, Charnockite, Alluvium",
+      "avg_groundwater_depth_m": 8.0,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 130,
+      "soil_type": "Red soil, Black cotton soil, Alluvial",
+      "districts": {
+        "Chennai": { "rainfall_mm": 1400, "gw_depth_m": 6.0, "aquifer": "Alluvium/Charnockite", "recharge_rate": 170 },
+        "Coimbatore": { "rainfall_mm": 650, "gw_depth_m": 12.0, "aquifer": "Granite/Gneiss", "recharge_rate": 90 },
+        "Madurai": { "rainfall_mm": 850, "gw_depth_m": 9.0, "aquifer": "Granite/Gneiss", "recharge_rate": 115 },
+        "Tiruchirappalli": { "rainfall_mm": 800, "gw_depth_m": 8.5, "aquifer": "Granite/Gneiss", "recharge_rate": 110 },
+        "Salem": { "rainfall_mm": 750, "gw_depth_m": 10.5, "aquifer": "Granite/Gneiss", "recharge_rate": 100 },
+        "Tirunelveli": { "rainfall_mm": 750, "gw_depth_m": 7.5, "aquifer": "Granite/Gneiss", "recharge_rate": 105 }
+      }
+    },
+    "Telangana": {
+      "avg_rainfall_mm": 940,
+      "principal_aquifer": "Granite/Gneiss, Basalt",
+      "avg_groundwater_depth_m": 10.0,
+      "runoff_coefficient": 0.42,
+      "recharge_rate_mm_per_year": 120,
+      "soil_type": "Red soil, Black cotton soil",
+      "districts": {
+        "Hyderabad": { "rainfall_mm": 810, "gw_depth_m": 14.0, "aquifer": "Granite/Gneiss", "recharge_rate": 100 },
+        "Warangal": { "rainfall_mm": 1000, "gw_depth_m": 8.5, "aquifer": "Granite/Gneiss", "recharge_rate": 130 },
+        "Karimnagar": { "rainfall_mm": 950, "gw_depth_m": 9.0, "aquifer": "Granite/Gneiss", "recharge_rate": 125 },
+        "Nizamabad": { "rainfall_mm": 1050, "gw_depth_m": 7.5, "aquifer": "Basalt/Granite", "recharge_rate": 140 },
+        "Rangareddy": { "rainfall_mm": 820, "gw_depth_m": 15.0, "aquifer": "Granite/Gneiss", "recharge_rate": 95 }
+      }
+    },
+    "Uttar Pradesh": {
+      "avg_rainfall_mm": 990,
+      "principal_aquifer": "Alluvium (Newer and Older)",
+      "avg_groundwater_depth_m": 8.0,
+      "runoff_coefficient": 0.48,
+      "recharge_rate_mm_per_year": 160,
+      "soil_type": "Alluvial soil",
+      "districts": {
+        "Lucknow": { "rainfall_mm": 1000, "gw_depth_m": 8.5, "aquifer": "Newer Alluvium", "recharge_rate": 160 },
+        "Kanpur": { "rainfall_mm": 850, "gw_depth_m": 10.0, "aquifer": "Newer Alluvium", "recharge_rate": 140 },
+        "Varanasi": { "rainfall_mm": 1050, "gw_depth_m": 7.0, "aquifer": "Newer Alluvium", "recharge_rate": 170 },
+        "Agra": { "rainfall_mm": 680, "gw_depth_m": 12.0, "aquifer": "Older Alluvium", "recharge_rate": 110 },
+        "Allahabad": { "rainfall_mm": 1000, "gw_depth_m": 7.5, "aquifer": "Newer Alluvium", "recharge_rate": 165 },
+        "Meerut": { "rainfall_mm": 850, "gw_depth_m": 9.0, "aquifer": "Newer Alluvium", "recharge_rate": 145 },
+        "Noida": { "rainfall_mm": 800, "gw_depth_m": 14.0, "aquifer": "Newer Alluvium", "recharge_rate": 120 },
+        "Gorakhpur": { "rainfall_mm": 1350, "gw_depth_m": 4.5, "aquifer": "Newer Alluvium", "recharge_rate": 210 }
+      }
+    },
+    "West Bengal": {
+      "avg_rainfall_mm": 1750,
+      "principal_aquifer": "Alluvium (Newer)",
+      "avg_groundwater_depth_m": 4.5,
+      "runoff_coefficient": 0.50,
+      "recharge_rate_mm_per_year": 220,
+      "soil_type": "Alluvial soil, Laterite",
+      "districts": {
+        "Kolkata": { "rainfall_mm": 1800, "gw_depth_m": 4.0, "aquifer": "Newer Alluvium", "recharge_rate": 230 },
+        "Howrah": { "rainfall_mm": 1750, "gw_depth_m": 4.5, "aquifer": "Newer Alluvium", "recharge_rate": 220 },
+        "Darjeeling": { "rainfall_mm": 3000, "gw_depth_m": 6.0, "aquifer": "Crystalline/Gneiss", "recharge_rate": 280 },
+        "Siliguri": { "rainfall_mm": 2800, "gw_depth_m": 3.5, "aquifer": "Newer Alluvium", "recharge_rate": 300 },
+        "Burdwan": { "rainfall_mm": 1500, "gw_depth_m": 5.5, "aquifer": "Alluvium/Laterite", "recharge_rate": 195 },
+        "Midnapore": { "rainfall_mm": 1600, "gw_depth_m": 5.0, "aquifer": "Laterite/Alluvium", "recharge_rate": 200 }
+      }
+    },
+    "Uttarakhand": {
+      "avg_rainfall_mm": 1550,
+      "principal_aquifer": "Alluvium, Limestone, Quartzite",
+      "avg_groundwater_depth_m": 7.0,
+      "runoff_coefficient": 0.50,
+      "recharge_rate_mm_per_year": 190,
+      "soil_type": "Mountain soil, Alluvial",
+      "districts": {
+        "Dehradun": { "rainfall_mm": 2050, "gw_depth_m": 5.5, "aquifer": "Alluvium/Limestone", "recharge_rate": 230 },
+        "Haridwar": { "rainfall_mm": 1300, "gw_depth_m": 6.0, "aquifer": "Newer Alluvium", "recharge_rate": 185 },
+        "Nainital": { "rainfall_mm": 1600, "gw_depth_m": 8.0, "aquifer": "Limestone/Quartzite", "recharge_rate": 195 },
+        "Almora": { "rainfall_mm": 1200, "gw_depth_m": 10.0, "aquifer": "Granite/Quartzite", "recharge_rate": 150 }
+      }
+    },
+    "Assam": {
+      "avg_rainfall_mm": 2818,
+      "principal_aquifer": "Alluvium (Newer)",
+      "avg_groundwater_depth_m": 3.5,
+      "runoff_coefficient": 0.55,
+      "recharge_rate_mm_per_year": 280,
+      "soil_type": "Alluvial soil, Laterite",
+      "districts": {
+        "Guwahati": { "rainfall_mm": 1700, "gw_depth_m": 4.0, "aquifer": "Newer Alluvium", "recharge_rate": 240 },
+        "Dibrugarh": { "rainfall_mm": 2800, "gw_depth_m": 3.0, "aquifer": "Newer Alluvium", "recharge_rate": 300 },
+        "Jorhat": { "rainfall_mm": 2200, "gw_depth_m": 3.5, "aquifer": "Newer Alluvium", "recharge_rate": 270 },
+        "Silchar": { "rainfall_mm": 3200, "gw_depth_m": 2.5, "aquifer": "Newer Alluvium", "recharge_rate": 320 }
+      }
+    },
+    "Meghalaya": {
+      "avg_rainfall_mm": 2818,
+      "principal_aquifer": "Sandstone, Limestone, Granite/Gneiss",
+      "avg_groundwater_depth_m": 5.0,
+      "runoff_coefficient": 0.55,
+      "recharge_rate_mm_per_year": 260,
+      "soil_type": "Red and laterite soil",
+      "districts": {
+        "Shillong": { "rainfall_mm": 2200, "gw_depth_m": 5.5, "aquifer": "Granite/Gneiss", "recharge_rate": 250 },
+        "Cherrapunji": { "rainfall_mm": 11430, "gw_depth_m": 4.0, "aquifer": "Sandstone/Limestone", "recharge_rate": 400 }
+      }
+    },
+    "Jammu and Kashmir": {
+      "avg_rainfall_mm": 1100,
+      "principal_aquifer": "Alluvium, Karewa, Limestone",
+      "avg_groundwater_depth_m": 8.0,
+      "runoff_coefficient": 0.45,
+      "recharge_rate_mm_per_year": 150,
+      "soil_type": "Mountain soil, Alluvial, Karewa",
+      "districts": {
+        "Srinagar": { "rainfall_mm": 710, "gw_depth_m": 5.0, "aquifer": "Karewa/Alluvium", "recharge_rate": 130 },
+        "Jammu": { "rainfall_mm": 1200, "gw_depth_m": 8.0, "aquifer": "Alluvium/Limestone", "recharge_rate": 160 },
+        "Anantnag": { "rainfall_mm": 800, "gw_depth_m": 6.0, "aquifer": "Karewa/Alluvium", "recharge_rate": 140 }
+      }
+    }
+  },
+  "recharge_structures": {
+    "recharge_pit": {
+      "description": "A pit filled with boulders, gravel, and coarse sand. Suitable for individual houses.",
+      "suitable_for": "Individual buildings with roof area < 100 sq.m",
+      "typical_depth_m": "1 to 2",
+      "typical_dimensions": "1m x 1m x 2m or 1.2m dia x 2m",
+      "cost_range_inr": "5000-15000",
+      "aquifer_suitability": ["Alluvium", "Laterite", "Sandstone"],
+      "min_open_space_sqm": 2
+    },
+    "recharge_trench": {
+      "description": "A trench of 0.5 to 1m wide filled with filter media. Suitable for elongated open spaces.",
+      "suitable_for": "Buildings with roof area 100-300 sq.m and elongated open space",
+      "typical_depth_m": "1 to 1.5",
+      "typical_dimensions": "0.6m wide x 1-1.5m deep x variable length",
+      "cost_range_inr": "8000-30000",
+      "aquifer_suitability": ["Alluvium", "Laterite", "Sandstone", "Basalt"],
+      "min_open_space_sqm": 5
+    },
+    "recharge_shaft": {
+      "description": "A deeper bore (3-5m+) drilled through impervious layers to reach permeable strata.",
+      "suitable_for": "Areas with thick impervious layer near surface, deeper aquifers",
+      "typical_depth_m": "3 to 15",
+      "typical_dimensions": "0.3-0.5m dia x 3-15m deep",
+      "cost_range_inr": "15000-50000",
+      "aquifer_suitability": ["Granite/Gneiss", "Basalt", "Quartzite", "Sandstone/Shale"],
+      "min_open_space_sqm": 1
+    },
+    "percolation_tank": {
+      "description": "An earthen embankment storing runoff for percolation into soil.",
+      "suitable_for": "Community level, large roof areas > 500 sq.m",
+      "typical_depth_m": "2 to 3",
+      "typical_dimensions": "Variable based on catchment",
+      "cost_range_inr": "50000-200000",
+      "aquifer_suitability": ["Alluvium", "Laterite", "Sandstone", "Weathered Granite"],
+      "min_open_space_sqm": 50
+    },
+    "rainwater_storage_tank": {
+      "description": "Above or below ground tank for direct use of collected rainwater.",
+      "suitable_for": "Direct use (non-potable/potable after treatment)",
+      "typical_depth_m": "1.5 to 3",
+      "typical_dimensions": "Based on storage need, typically 1000-10000 liters",
+      "cost_range_inr": "10000-80000",
+      "aquifer_suitability": ["All"],
+      "min_open_space_sqm": 3
+    }
+  },
+  "cost_data": {
+    "construction_materials": {
+      "boulders_per_cum_inr": 800,
+      "gravel_per_cum_inr": 1200,
+      "coarse_sand_per_cum_inr": 1500,
+      "pvc_pipe_per_m_inr": 150,
+      "cement_per_bag_inr": 380,
+      "bricks_per_1000_inr": 7000,
+      "mesh_filter_inr": 500,
+      "first_flush_device_inr": 1500,
+      "storage_tank_per_1000l_inr": 8000,
+      "labor_per_day_inr": 600,
+      "excavation_per_cum_inr": 350
+    },
+    "water_value": {
+      "municipal_water_per_kl_inr": 30,
+      "tanker_water_per_kl_inr": 250,
+      "groundwater_value_per_kl_inr": 15
+    }
+  },
+  "subsidies": {
+    "central_government": {
+      "name": "CGWB Rainwater Harvesting Scheme",
+      "description": "Central Ground Water Board provides technical guidance and subsidies for artificial recharge structures",
+      "subsidy_percentage": "Up to 50% for SC/ST households, 25% for others",
+      "max_amount_inr": 50000,
+      "applicable_states": "All",
+      "link": "http://cgwb.gov.in"
+    },
+    "states": {
+      "Tamil Nadu": {
+        "name": "Tamil Nadu RWH Mandatory Scheme",
+        "description": "Mandatory RWH for all buildings with plot size > 600 sq.ft. Non-compliance leads to disconnection of water supply.",
+        "subsidy_percentage": "Tax rebate available",
+        "link": "https://tnrd.gov.in"
+      },
+      "Karnataka": {
+        "name": "BWSSB Rainwater Harvesting",
+        "description": "Mandatory for sites > 2400 sq.ft in Bengaluru. 50% rebate on water charges for 1 year.",
+        "subsidy_percentage": "50% water charge rebate for 1 year",
+        "link": "https://bwssb.karnataka.gov.in"
+      },
+      "Maharashtra": {
+        "name": "Maharashtra RWH Policy",
+        "description": "Mandatory for new constructions > 300 sq.m plot area. Property tax rebate available.",
+        "subsidy_percentage": "Property tax rebate 5-10%",
+        "link": "https://mahahousing.gov.in"
+      },
+      "Delhi": {
+        "name": "Delhi Jal Board RWH",
+        "description": "Mandatory for plots > 100 sq.m. 10% rebate on water bill. Up to Rs 50,000 subsidy.",
+        "subsidy_percentage": "10% water bill rebate + up to Rs 50,000",
+        "max_amount_inr": 50000,
+        "link": "https://delhijalboard.delhi.gov.in"
+      },
+      "Gujarat": {
+        "name": "Gujarat RWH Incentive",
+        "description": "Property tax rebate for buildings with RWH. Support from Gujarat Water Supply Board.",
+        "subsidy_percentage": "Property tax rebate up to 6%",
+        "link": "https://gwssb.gujarat.gov.in"
+      },
+      "Rajasthan": {
+        "name": "Rajasthan Mukhyamantri Jal Swavlamban Abhiyan",
+        "description": "State-supported water conservation with subsidies for rural RWH structures.",
+        "subsidy_percentage": "Up to 60% for rural areas",
+        "link": "https://mjsa.water.rajasthan.gov.in"
+      },
+      "Haryana": {
+        "name": "Haryana RWH Policy",
+        "description": "Mandatory for plots > 500 sq.m. Subsidy from state for rural areas.",
+        "subsidy_percentage": "Subsidized materials and technical support",
+        "link": "https://haryanaurban.gov.in"
+      },
+      "Kerala": {
+        "name": "Kerala RWH Initiative (Mazhapolima)",
+        "description": "State-sponsored well recharge program. Technical and financial support available.",
+        "subsidy_percentage": "Up to Rs 25,000 per household",
+        "max_amount_inr": 25000,
+        "link": "https://keralawrd.gov.in"
+      },
+      "Uttar Pradesh": {
+        "name": "UP RWH and Artificial Recharge",
+        "description": "UPJN provides technical guidance. Mandatory for buildings > 300 sq.m in urban areas.",
+        "subsidy_percentage": "Technical support and partial subsidy",
+        "link": "https://upjn.gov.in"
+      }
+    }
+  }
+}
