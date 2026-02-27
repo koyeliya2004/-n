@@ -7,6 +7,7 @@
 const ROOF_RUNOFF_COEFFICIENT = 0.85; // Standard for concrete/tiled roofs
 const FIRST_FLUSH_MM = 2.5; // First 2.5mm discarded for cleaning
 const LITERS_PER_CUM = 1000;
+const DAYS_PER_MONTH = 30;
 
 /**
  * Calculate annual rainwater harvesting potential
@@ -165,7 +166,7 @@ function calculateStructureDimensions(runoffLiters, gwDepthM, soilType) {
   // Where Q = runoff volume, n = porosity (0.4 for filter media), P = percolation rate, T = retention time
   const pitPorosity = 0.4;
   const retentionDays = 3; // days to empty
-  const pitVolumeCum = runoffCum / (pitPorosity * percolationRate * retentionDays * 30);
+  const pitVolumeCum = runoffCum / (pitPorosity * percolationRate * retentionDays * DAYS_PER_MONTH);
   const pitDepth = Math.min(Math.max(1.5, gwDepthM * 0.3), 3);
   const pitArea = pitVolumeCum / pitDepth;
   const pitSide = Math.sqrt(pitArea);

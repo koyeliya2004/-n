@@ -192,7 +192,7 @@ export default function ResultsDashboard({ results, lang }) {
       )}
 
       {/* Download PDF */}
-      <button onClick={() => generateBlueprintPDF(results)}
+      <button onClick={() => generateBlueprintPDF(results, t)}
         style={styles.pdfButton}>
         📄 {t.downloadPdf}
       </button>

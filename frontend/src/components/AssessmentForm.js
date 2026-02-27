@@ -143,7 +143,7 @@ const styles = {
   input: { width: '100%', padding: '10px 12px', borderRadius: 8, border: '1px solid #ccc', fontSize: 14, outline: 'none' },
   checkLabel: { display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', fontWeight: 600 },
   checkbox: { width: 18, height: 18 },
-  button: { padding: '14px 24px', background: '#1a73e8', color: '#fff', border: 'none', borderRadius: 8, fontSize: 16, fontWeight: 700, cursor: 'pointer', marginTop: 10 },
+  button: { padding: '14px 24px', background: '#1a73e8', color: '#fff', border: 'none', borderRadius: 8, fontSize: 16, fontWeight: 700, cursor: 'pointer', marginTop: 10, ':disabled': { cursor: 'not-allowed' } },
   error: { background: '#fde8e8', color: '#c00', padding: 12, borderRadius: 8, marginBottom: 10 },
   mapSection: { marginTop: 10 },
   coords: { textAlign: 'center', color: '#666', fontSize: 13, marginTop: 4 }

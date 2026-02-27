@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const cgwbData = require('../data/cgwb_data.json');
 const calc = require('../calculations');
 
-const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY || '9809e6d3ab834cdf502cc4d5b5f91d42';
+const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY || '';
 
 // GET /api/states - List all states and districts
 router.get('/states', (req, res) => {
@@ -47,10 +47,15 @@ router.get('/district-data/:state/:district', (req, res) => {
 // GET /api/weather/:lat/:lon - Get current and forecast weather from OpenWeather
 router.get('/weather/:lat/:lon', async (req, res) => {
   const { lat, lon } = req.params;
+  if (!OPENWEATHER_API_KEY) {
+    return res.status(503).json({ error: 'Weather API key not configured' });
+  }
   try {
+    const weatherBaseUrl = 'https://api.openweathermap.org/data/2.5';
+    const params = `lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&appid=${encodeURIComponent(OPENWEATHER_API_KEY)}&units=metric`;
     const [currentRes, forecastRes] = await Promise.all([
-      fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&appid=${encodeURIComponent(OPENWEATHER_API_KEY)}&units=metric`),
-      fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${encodeURIComponent(lat)}&lon=${encodeURIComponent(lon)}&appid=${encodeURIComponent(OPENWEATHER_API_KEY)}&units=metric`)
+      fetch(`${weatherBaseUrl}/weather?${params}`),
+      fetch(`${weatherBaseUrl}/forecast?${params}`)
     ]);
 
     const current = await currentRes.json();
